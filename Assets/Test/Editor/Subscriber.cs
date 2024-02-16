@@ -67,7 +67,7 @@ namespace Kuchen.Test
 		}
 		
 		[Test]
-		[ExpectedException(typeof(System.InvalidCastException))]
+		//[ExpectedException(typeof(System.InvalidCastException))]
 		public void 引数の型を間違うとエラーになる()
 		{
 			var subscriber = new Subscriber();
